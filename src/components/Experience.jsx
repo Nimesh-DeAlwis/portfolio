@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiBriefcase, FiTarget, FiUsers, FiTool, FiMonitor, FiCheckCircle } from 'react-icons/fi';
+import { FiBriefcase, FiTarget, FiTool, FiCheckCircle } from 'react-icons/fi';
 
 const Experience = () => {
   const responsibilities = [
