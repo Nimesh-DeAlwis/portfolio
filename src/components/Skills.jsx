@@ -1,20 +1,24 @@
 import React from 'react';
-import { FaReact, FaNodeJs, FaJava, FaAws, FaDatabase, FaGitAlt } from 'react-icons/fa';
-import { SiExpress, SiTailwindcss, SiPostgresql, SiNginx, SiDocker } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaJava, FaAws, FaDatabase, FaGitAlt} from 'react-icons/fa';
+import { SiExpress, SiTailwindcss, SiPostgresql, SiNginx, SiDocker, SiMicrosoftazure, SiLinux, SiUbuntu, SiCsharp } from 'react-icons/si';
 
 const Skills = () => {
   const skills = [
-    { icon: <FaReact />, name: 'React', level: 'Advanced', color: 'text-cyan-400' },
-    { icon: <FaNodeJs />, name: 'Node.js', level: 'Advanced', color: 'text-green-500' },
-    { icon: <SiExpress />, name: 'Express.js', level: 'Advanced', color: 'text-gray-400' },
-    { icon: <FaJava />, name: 'Java', level: 'Intermediate', color: 'text-red-500' },
     { icon: <FaDatabase />, name: 'SQL Server', level: 'Advanced', color: 'text-yellow-500' },
-    { icon: <SiPostgresql />, name: 'PostgreSQL', level: 'Intermediate', color: 'text-blue-400' },
-    { icon: <SiTailwindcss />, name: 'Tailwind CSS', level: 'Advanced', color: 'text-teal-400' },
     { icon: <FaGitAlt />, name: 'Git', level: 'Advanced', color: 'text-orange-500' },
+    { icon: <FaReact />, name: 'React', level: 'Intermediate', color: 'text-cyan-400' },
+    { icon: <FaNodeJs />, name: 'Node.js', level: 'Intermediate', color: 'text-green-500' },
+    { icon: <SiExpress />, name: 'Express.js', level: 'Intermediate', color: 'text-gray-400' },
+    { icon: <FaJava />, name: 'Java', level: 'Intermediate', color: 'text-red-500' },
+    { icon: <SiPostgresql />, name: 'PostgreSQL', level: 'Learning', color: 'text-blue-400' },
+    { icon: <SiTailwindcss />, name: 'Tailwind CSS', level: 'Intermediate', color: 'text-teal-400' },
     { icon: <SiNginx />, name: 'NGINX', level: 'Intermediate', color: 'text-green-600' },
-    { icon: <FaAws />, name: 'Cloud Environment', level: 'Intermediate', color: 'text-yellow-400' },
-    { icon: <SiDocker />, name: 'Docker', level: 'Learning', color: 'text-blue-500' },
+    { icon: <FaAws />, name: 'AWS', level: 'Learning', color: 'text-yellow-400' },
+    { icon: <SiMicrosoftazure />, name: 'Azure', level: 'Learning', color: 'text-blue-500' },
+    { icon: <SiLinux />, name: 'Linux', level: 'Learning', color: 'text-yellow-500' },
+    { icon: <SiUbuntu />, name: 'Ubuntu', level: 'Learning', color: 'text-orange-500' },
+    { icon: <SiDocker />, name: 'Docker', level: 'Learning', color: 'text-blue-600' },
+    { icon: <SiCsharp />, name: 'C#', level: 'Intermediate', color: 'text-purple-500' }
   ];
 
   const knowledge = [

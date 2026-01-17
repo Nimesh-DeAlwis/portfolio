@@ -27,11 +27,11 @@ const Hero = () => {
                 <span className="text-gray-300">I am a </span>
                 <TypeAnimation
                   sequence={[
-                    'Technical Support Executive',
-                    2000,
                     'Full Stack Developer',
                     2000,
                     'Cloud DevOps Aspirant',
+                    2000,
+                    'Technical Support Executive',
                     2000,
                     'Software Engineer',
                     2000,
@@ -100,20 +100,15 @@ const Hero = () => {
                 <div className="text-center">
                   <div className="w-48 h-48 lg:w-64 lg:h-64 bg-gradient-to-br from-gray-700 to-gray-900 rounded-full mx-auto mb-4 overflow-hidden border-4 border-gray-800">
                         <img 
-                                src="/images/nimesh-profile.jpg" 
-                                alt="Nimesh De Alwis"
-                                className="w-full h-full object-cover"
-                                onError={(e) => {
-                                  e.target.onerror = null;
-                                  e.target.src = "https://via.placeholder.com/300x300/1e293b/ffffff?text=ND";
-                                }}
-                     />
+                          src="/portfolio/images/nimesh-profile.jpg" 
+                          alt="Nimesh De Alwis"
+                          className="w-full h-full object-cover"
+                        />
                     <div className="w-full h-full bg-gray-700 flex items-center justify-center">
                       <span className="text-6xl">ND</span>
                     </div>
                   </div>
-                  <p className="text-lg font-semibold">Cloud DevOps Aspirant</p>
-                  <p className="text-gray-400">mypos Software Solutions</p>
+                  <p className="text-lg font-semibold">Nimesh De Alwis</p>
                 </div>
               </div>
             </div>
